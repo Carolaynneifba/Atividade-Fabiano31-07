@@ -1,0 +1,85 @@
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #D6EAF8;
+   display: flex;
+   justify-content:space-evenly;
+   align-items: center;
+   margin: 0%;
+   padding-top: 15%;    
+}
+
+#miolo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: #343A40;;
+    border-radius: 10px;
+    height: 300px;
+    width: 600px;
+    padding: 10px;     
+}
+  
+.central{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 55px;
+}
+ 
+.logo{
+    display: flex;
+    color: white;
+    flex-direction: column;
+  
+}
+.logo img {
+    height: 80px;
+    border-radius: 50px;
+    display:flex;
+    justify-content: center;
+    color: white;  
+}
+span{
+    padding-top: 15px;
+}
+
+.formLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  .label input{
+     height: 25px;
+     width: 250px;
+     border-radius: 6px;
+     border: none;
+  }
+  ::placeholder{
+    font-size: 12px;
+  }
+.label {
+   display: flex;
+   flex-direction: column;
+   color: white;
+   padding: 10px;
+}
+
+.btn button{
+    background-color: #0583F2;
+}
+button{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+
+    
+}

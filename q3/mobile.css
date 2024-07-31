@@ -1,0 +1,62 @@
+@media only screen and ( max-width: 600px) {
+    body{
+        font-size: large;
+        background-color: #222; /* Cor cinza-escuro */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    #miolo{
+        height: 85vh;
+        width: 80vw;
+       
+    }
+
+    .central{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .label{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .label input{
+        width: 200px;
+        height: 25px;
+        border: 0px;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        padding: 5px;
+    }
+
+    
+
+         
+    }
+     
+    .logo > img {
+        height: 100px;
+        
+    }
+
+    span{
+        padding-top: 15px;
+    }
+    
+    
+    .btn button{     
+        background-color: #0583F2;
+        height: 30px;
+        width: 95%;
+        border: 0px;
+        border-radius: 10px;
+        color: white;
+    }
+
+   
